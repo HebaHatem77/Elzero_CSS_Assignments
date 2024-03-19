@@ -1,0 +1,56 @@
+/* <!-- The Assignments From 22 To 26 --> */
+
+/* 01 */
+.p{
+    padding: 15px;
+    border: 2px solid #ff5722;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+div p{
+    padding: inherit;
+    border: inherit;
+    height: 35px;
+    background-color: #e5e5e5;
+}
+
+/* 02 */
+div{
+    text-align: center;
+}
+
+.f1{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: italic;
+}
+
+.f2{
+    font-family: Cairo;
+    font-weight: 700;
+}
+
+.f3{
+    font-family: Jomhuria;
+    font-weight: 400;
+}
+
+/* 03 */
+html{
+    font-family: Cairo;
+    font-size: 20px;
+}
+
+.f4{
+    font-size: 2.5rem;
+}
+
+.f5{
+    font-size: 2rem;
+}
+
+.f6{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+/* <!-- The Assignments From 17 To 21 --> */
+
+/* 01 */
+.shadow{
+    text-shadow: .5px .5px 0 rgb(221, 0, 255) , 1px 1px 0 #000dff , 1.5px 1.5px 0 rgb(123, 0, 255);
+}
+
+/* 02 */
+.one{
+    text-transform: uppercase;
+}
+
+.two{
+    text-transform: capitalize;
+}
+
+.three{
+    text-transform: lowercase;
+}
+
+/* 03 */
+.over,
+.flow{
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.flow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 04 */
+a{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    border-bottom: 4px solid #005558;
+    background-color: #317f6d;
+    text-decoration: none;
+    text-transform: capitalize;
+}

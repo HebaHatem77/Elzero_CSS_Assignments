@@ -1,0 +1,28 @@
+/* <!-- The Assignments From 13 To 16 --> */
+
+/* 01 */
+.parent .child .title{
+    color: red;
+}
+
+.parent .title{
+    color: blue;
+}
+
+.title,
+p{
+    color: green;
+}
+
+/* 02 */
+.dimension{
+    background-color: red;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 40px;
+    overflow: hidden;
+}
