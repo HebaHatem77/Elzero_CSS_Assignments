@@ -1,0 +1,58 @@
+/* <!-- The Assignments From 27 To 29 --> */
+
+/* 01 */
+.parent{
+    width: 1000px;
+    background-color: #eeeeee;
+    margin: 20px auto;
+}
+
+.parent div{
+    text-align: center;
+    background-color: #ddd;
+    padding: 15px 0;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+.l1{
+    width: calc(100% - 30px);
+}
+
+.l2{
+    width: calc((100% - 60px) / 3);
+}
+
+.l3{
+    width: calc((100% - 45px) / 2);
+}
+
+.l4{
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+/* ------------------------------------------------------------ */
+/* 02 */
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+  }
+
+.one{
+    background-color: #dddddd4d;
+}
+
+.two{
+    opacity: 0.2;
+}

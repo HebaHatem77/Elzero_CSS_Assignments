@@ -1,0 +1,160 @@
+/* ---- 01 ---- */
+.green,
+.black,
+.red,
+.blue {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+.green {
+    background-color: #009688;
+    z-index: 2;
+    top: 25px;
+    left: 25px;
+}
+.black {
+    background-color: #333333;
+    z-index: 0;
+    top: 25px;
+}
+.red {
+    background-color: #f44336;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.blue {
+    background-color: #03a9f4;
+    z-index: 1;
+} 
+
+/* ---- 02 ---- */
+.ass_2 {
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 30px;
+    background-color: #eee;
+    border-left: 2px solid #0087bd; 
+    border-right: 2px solid #0087bd;
+    border-bottom: 2px solid #bd1f00;
+    border-top: 2px solid #bd1f00; 
+    border: 3px solid;
+    border-color: #f44336 #2196f3;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    background-color: #2196f3;
+    padding: 0px 12px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.top-left {
+    top: -15px;
+    left: -15px;
+    border-right: 3px solid #f44336;
+}
+
+.bottom-left {
+    bottom: -15px;
+    left: -15px;
+    border-right: 3px solid #f44336;
+}
+
+.top-right {
+    top: -15px;
+    right: -15px;
+    border-left: 3px solid #f44336;
+}
+
+.bottom-right {
+    bottom: -15px;
+    right: -15px;
+    border-left: 3px solid #f44336;
+} 
+
+/* ---- 03 ---- */
+.ass_3 {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.html,
+.css,
+.javascript {
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
+
+.html ol,
+.css ol {
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.html ol li,
+.css ol li {
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.css ol li {
+    list-style-type: upper-roman;
+}
+
+.javascript ul {
+    padding-left: 0;
+}
+
+.javascript li {
+    list-style-position: inside;
+    margin: 10px 0;
+    background-color: white;
+    padding: 5px;
+}
+
+/* ----- 04 ----- */
+table {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+caption {
+    font-weight: bold;
+    margin: 15px;
+}
+table tbody td {
+    padding: 20px;
+    background-color: #eee;
+  }
+  table thead td {
+    padding: 20px;
+
+    background-color: #404040;
+    color: #FFF;
+    font-weight: bold;
+
+} 
+.del {
+    display: inline;
+    background-color: #03a9f4;
+    border: none;
+    color: white;
+}
+.view {
+    display: inline;
+    background-color: #e91e63;
+    border: none;
+    color: white;
+}
